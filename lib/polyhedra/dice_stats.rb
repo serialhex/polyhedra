@@ -14,7 +14,7 @@ module DiceStats
 
   module InstanceMethods
     def mean
-      0.5 * self.number * ( 1+ self.sides)
+      0.5 * self.number * (1 + self.sides)
     end
 
     def variance
